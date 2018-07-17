@@ -10,26 +10,35 @@ namespace Lab3EvenOdd
     {
         static void Main(string[] args)
         {
-           int userNumber = ConvertUserNumber();
-            if (userNumber % 2 == 0 && Enumerable.Range(2, 25).Contains(userNumber))
+            while (true)
             {
-                Console.WriteLine(userNumber + " Even and less than 25.");
-                Console.ReadLine();
-            }
-            else if (userNumber % 2 == 0 && Enumerable.Range(26, 60).Contains(userNumber))
-            {
-                Console.WriteLine("Even");
-                Console.ReadLine();
-            }
-            else if (userNumber % 2 == 0 && Enumerable.Range(61, 100).Contains(userNumber))
-            {
-                Console.WriteLine(userNumber + " Even");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine(userNumber + " Odd");
-                Console.ReadLine();
+                int userNumber = ConvertUserNumber();
+                if (userNumber % 2 == 0 && Enumerable.Range(2, 25).Contains(userNumber))
+                {
+                    Console.WriteLine(userNumber + " Even and less than 25.");
+                    Console.ReadLine();
+                }
+                else if (userNumber % 2 == 0 && Enumerable.Range(26, 60).Contains(userNumber))
+                {
+                    Console.WriteLine("Even");
+                    Console.ReadLine();
+                }
+                else if (userNumber % 2 == 0 && Enumerable.Range(61, 100).Contains(userNumber))
+                {
+                    Console.WriteLine(userNumber + " Even");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine(userNumber + " Odd");
+                    Console.ReadLine();
+                }
+                Console.WriteLine("Do you want to run again (Y/N)? ");
+
+                if (Console.ReadLine().ToLower() != "y")
+                    Console.WriteLine("Thank you for playing");
+                    Console.ReadLine();
+                    break;
             }
         }
 
