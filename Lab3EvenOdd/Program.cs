@@ -16,6 +16,7 @@ namespace Lab3EvenOdd
 
                 Console.WriteLine("What is your name?");
                 userName = Console.ReadLine();
+                Console.Clear();
 
                 Console.WriteLine("Hello " + userName + ", today we are going to find out if a number is even or odd.");
 
@@ -62,7 +63,7 @@ namespace Lab3EvenOdd
             bool succes = int.TryParse(stringNumber, out userNumber);
             if (!succes)
             {
-                Console.WriteLine("\n" + "Please enter in a valid number");
+                Console.Clear();
                 return ConvertUserNumber();
             }
             if (userNumber >=101 || userNumber <= 0)
