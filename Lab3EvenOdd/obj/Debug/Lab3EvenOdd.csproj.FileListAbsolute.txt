@@ -1,0 +1,7 @@
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\bin\Debug\Lab3EvenOdd.exe.config
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\bin\Debug\Lab3EvenOdd.exe
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\bin\Debug\Lab3EvenOdd.pdb
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\obj\Debug\Lab3EvenOdd.csprojAssemblyReference.cache
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\obj\Debug\Lab3EvenOdd.csproj.CoreCompileInputs.cache
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\obj\Debug\Lab3EvenOdd.exe
+c:\users\frees\source\repos\Lab3EvenOdd\Lab3EvenOdd\obj\Debug\Lab3EvenOdd.pdb
