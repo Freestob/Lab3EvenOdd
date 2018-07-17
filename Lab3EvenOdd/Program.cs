@@ -49,12 +49,7 @@ namespace Lab3EvenOdd
                     Console.ReadLine();
                     break;
                 }
-                else
-                {
-                    return;
-                }
-
-            }
+             }
         }
 
 
