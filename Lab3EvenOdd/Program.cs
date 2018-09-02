@@ -22,17 +22,18 @@ namespace Lab3EvenOdd
 
                 int userNumber = ConvertUserNumber();                        
                 
-                if (userNumber % 2 == 0 && Enumerable.Range(2, 25).Contains(userNumber))
+                if (userNumber % 2 == 0 && userNumber < 25)
                 {
                     Console.WriteLine(userName + ", " + userNumber + " is even and less than 25.");
                     Console.ReadLine();
                 }
-                else if (userNumber % 2 == 0 && Enumerable.Range(26, 60).Contains(userNumber))
+                else if (userNumber % 2 == 0 && Enumerable.Range(26, 34).Contains(userNumber))
+                
                 {
                     Console.WriteLine(userName + ", that number is even");
                     Console.ReadLine();
                 }
-                else if (userNumber % 2 == 0 && Enumerable.Range(61, 100).Contains(userNumber))
+                else if (userNumber % 2 == 0 && Enumerable.Range(61, 40).Contains(userNumber))
                 {
                     Console.WriteLine(userName + ", " + userNumber + " is even");
                     Console.ReadLine();
